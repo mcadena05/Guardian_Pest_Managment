@@ -1,0 +1,32 @@
+*{
+    margin: 0;
+}
+#logo{
+    padding-top: 50px;
+    width: 500px;
+    height: 600px;
+}
+#mini{
+    width: 80px;
+    height: 75px;
+    align-items: center;
+}
+#main{
+    padding: auto;
+}
+#quote{
+    width: 300px;
+    height: 200px;
+    
+}
+#navbar{
+    background-color: #6127D2;
+    
+    
+}
+.navbar-nav a{
+    color: aliceblue;
+}
+.nav-link disabled{
+    color: aliceblue;
+}
