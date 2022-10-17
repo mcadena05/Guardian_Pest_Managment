@@ -36,17 +36,18 @@
     
 }
 #navbar{
-    background-color: #6127D2;
+    background-color: #481ca0;
     color: aliceblue;
     height: 9vh;
     vertical-align: middle;
     display: inline-block;
+    padding-right: 300px;
     
     
 }
 .navbar-nav a{
     color: aliceblue;
-    font-size: large;
+    font-size: 20px;
     font-family: 'Alike', serif;
    
 }
@@ -66,6 +67,8 @@
 }
 #service-title{
     padding-bottom: 50px;
+    color: #6127D2;
+    font-size: 50px;
 }
 #testimonial-container{
     padding-top: 50px;
@@ -78,4 +81,12 @@
 #quote-container{
     padding-top: 50px;
     padding-bottom: 100px;
+    color: #6127D2;
+    
+}
+#quote_title{
+    font-size: 50px;
+}
+#navbarNav li{
+    padding-left: 75px;
 }

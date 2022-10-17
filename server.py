@@ -14,18 +14,18 @@ def homepage():
 
     return render_template("homepage.html")
 
-@app.route("/quote", methods=["POST"])
-def request_quote():
-    # "Create a new user."
+# @app.route("/quote", methods=["POST"])
+# def request_quote():
+#     # "Create a new user."
 
-    name = request.form.get("name")
-    email = request.form.get("email")
-    phone = request.form.get('phone')
-    message = request.form.get("message")
+#     name = request.form.get("name")
+#     email = request.form.get("email")
+#     phone = request.form.get('phone')
+#     message = request.form.get("message")
     
 
 
-    return redirect("/")
+#     return redirect("/")
 
 
 
