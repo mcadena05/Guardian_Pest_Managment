@@ -1,7 +1,6 @@
 *{
     margin: 0;
-    font-family: 'Alike', serif;
-    
+    font-family: 'Fjalla One', sans-serif;
 }
 #background-box{
     width: 1500px;
@@ -14,12 +13,9 @@
     background-position: center;
 }
 #logo{
-    padding-top: 50px;
-    width: 375px;
-    height: 450px;
+    height: 17vh;
+    padding-left: 9vw;
 }
-
-
 #mini{
     height: 7vh;
     margin-left: 1vw;
@@ -28,7 +24,8 @@
     
 }
 #main{
-    padding: 75px;
+    padding: 40px;
+    padding-top: 80px;
 }
 #quote{
     width: 300px;
@@ -36,50 +33,120 @@
     
 }
 #navbar{
+    font-family: 'Fjalla One', sans-serif;
+
     background-color: #481ca0;
     color: aliceblue;
-    height: 9vh;
-    vertical-align: middle;
-    display: inline-block;
-    padding-right: 300px;
-    
+    height: 9vh;   
     
 }
 .navbar-nav a{
-    color: aliceblue;
-    font-size: 20px;
-    font-family: 'Alike', serif;
-   
+    color: aliceblue;  
 }
-.nav-link disabled{
+
+
+.nav-item{
+    font-family: 'Fjalla One', sans-serif;
+    font-size: 2vh;
+    margin: auto;
+    padding-left: 1vw;
+    letter-spacing: 1px;
+
+}
+.nav-link{
+    
     color: aliceblue;
+}
+
+.nav-link:hover{
+    color: #B7bcbd
+
+}
+
+.card-text{
+    font-family: 'Roboto Flex', sans-serif;
+    font-size: 1.7vh;
+}
+
+.card-title{
+    font-size: 3vh;
+}
+
+.card-subtitle{
+    font-size: 2vh;
+}
+
+#inputEmail4, #inputAddress2{
+    font-family: 'Roboto Flex', sans-serif;
 }
 
 .card-img-top {
     width: 100%;
-    height: 15vw;
+    height: 10vw;
     object-fit: cover;
 }
+
+.card{
+    box-shadow: 2px 2px lightgray;
+
+}
+
+.btn:hover{
+    opacity: .8;
+}
+
+.solid{
+    width: 40vw;
+    margin: auto;
+    border-top: 3px solid black;
+    border-radius: 5px;
+    margin-top: 5vh;
+}
+
+#companyInfo{
+    height: 50vh;
+}
+
+#nameCol{
+    margin-top: 10vh;
+    height: 40vh;
+    color: #481ca0;
+    font-size: 10vh;
+    text-align: left;
+    line-height: 90px;
+}
+
+#logoCol{
+    height: 20vh;
+    width: 100vh;
+}
+
 #service-container{
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 8vh;
+    padding-bottom: 80px;
     
+}
+#reviews-carousel{
+    margin-top: -25vh;
+}
+
+
+.d-block{
+    width: 27vw;
+    height: 74vh;
+    
+}
+
+#phone-num{
+    color: goldenrod;
 }
 #service-title{
-    padding-bottom: 50px;
     color: #6127D2;
-    font-size: 50px;
+    font-size: 7vh;
 }
-#testimonial-container{
-    padding-top: 50px;
-    padding-bottom: 100px;
-    
-}
-#testimonial-title{
-    padding-bottom: 50px;
-}
+
 #quote-container{
-    padding-top: 50px;
+    padding-top: 10vh;
     padding-bottom: 100px;
     color: #6127D2;
     
@@ -87,6 +154,45 @@
 #quote_title{
     font-size: 50px;
 }
-#navbarNav li{
-    padding-left: 75px;
+
+.col{
+    padding-top: 30px;
+}
+
+#field-photos {
+    width:500px;
+    height:300px;
+    align-items: center;
+    padding-left: 300px;
+}
+#call-us{
+    margin-left: 55vw;
+    background-color: #e9ce1f;
+    border-color: goldenrod;
+    color:black;
+    opacity: .95;
+    border-radius:25px;
+    width: 10vw;
+    height: 6vh;
+    text-align: center;
+    box-shadow: 2px 2px black;
+        
+}
+#testimonial-container.row{
+    height: 300vh;
+}
+#photos-inner{
+    width: 50vw;
+    height: 65vh;
+    margin-left: 7vw;
+
+}
+#img1, #img2, #img3, #img4{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width:50vw;
+    max-height:65vh;
+    width: auto;
+    height: auto;
 }
